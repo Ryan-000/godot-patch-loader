@@ -1,0 +1,19 @@
+[configuration]
+
+entry_symbol = "gdextension_init"
+compatibility_minimum = 4.3
+
+[libraries]
+
+linux.debug.x86_64 = "bin/libpatch_loader.linux.debug.x86_64.so"
+linux.release.x86_64 = "bin/libpatch_loader.linux.release.x86_64.so"
+linux.debug.arm64 = "bin/libpatch_loader.linux.debug.arm64.so"
+linux.release.arm64 = "bin/libpatch_loader.linux.release.arm64.so"
+linux.debug.rv64 = "bin/libpatch_loader.linux.debug.rv64.so"
+linux.release.rv64 = "bin/libpatch_loader.linux.release.rv64.so"
+windows.debug.x86_64 = "bin/libpatch_loader.windows.debug.x86_64.dll"
+windows.release.x86_64 = "bin/libpatch_loader.windows.release.x86_64.dll"
+macos.debug = "bin/libpatch_loader.macos.debug.framework"
+macos.release = "bin/libpatch_loader.macos.release.framework"
+android.debug.arm64 = "bin/libpatch_loader.android.debug.arm64.so"
+android.release.arm64 = "bin/libpatch_loader.android.release.arm64.so"
